@@ -3,8 +3,7 @@
 #midpoint of a list if it were sorted. The mode is the number that appears most frequently in the list. Define these functions in a module named stats.py. 
 #Also include a function named mean, which computes the average of a set of numbers. Each function expects a list of numbers as an argument and returns a single number.
 
-import statistics
-
+#stats.py module
 def median(numList):
     numList.sort()
     x = len(numList)
@@ -25,7 +24,11 @@ def mean(numList):
         sumList = sumList + i;
     return sumList / x
 
+
+#main program file
+import stats
+
 numList = [27, 48, 49, 16, 3, 11, 19, 13, 29, 50]
-print(median(numList))
-print(mode(numList))
-print(mean(numList))
+print(stats.median(numList))
+print(stats.mode(numList))
+print(stats.mean(numList))
