@@ -1,7 +1,8 @@
 # Grp6-CPE106L-Repository
 
-MEMBERS:
+Leader:
 Biag John Carlo A.
+MEMBERS:
 Gomez Jonas
 Paco Euan Kurt R.
 Torralba, Quennie
